@@ -1,4 +1,4 @@
-# nanostudiopro-com
+# Nano Studio Pro
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,144 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-nanostudiopro-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://nanostudiopro.com/
+Nano Studio Pro provides an AI-powered image and video studio that lets users search, generate, and edit visual assets. The platform offers AI image generation, video generation, background removal, multi‑angle rendering, and Shopify integration, targeting creators and e‑commerce teams. It combines advanced models like Nano Banana, GPT Image, and Kling to deliver searchable, reusable visual content.
+
+**Areas:** AI Image Editor · AI Video Generation · Interactive Storyboards · Character Creator · Font Generator · Search Engine · API · E‑commerce
+
+## Nano Studio Pro on APIs.io
+
+Everything profiled for Nano Studio Pro is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nanostudiopro-com/](https://apis.io/providers/nanostudiopro-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (17)
+
+- [Nano Studio Pro Account API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-account-api/) — Inspect your authenticated identity and storage usage. Useful as a health check after generating a new token.
+- [Nano Studio Pro Assets API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-assets-api/) — Reusable inputs you can reference across many generations: model headshots, pose guides, backgrounds, products, accessories. Once uploaded, pass an asset's…
+- [Nano Studio Pro Cutouts API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-cutouts-api/) — Production-grade transparent cutouts, grayscale mattes, and subject-removed background plates from any image. Each call processes one image synchronously…
+- [Nano Studio Pro Detections API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-detections-api/) — What the detection engine sees in each image. Every generation and import is automatically deep-scanned (Gemini): item names, categories, textures, colors,…
+- [Nano Studio Pro Device Auth API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-device-auth-api/) — OAuth 2.0 Device Authorization Grant (RFC 8628) — the standard handshake CLIs and headless tools use to obtain a token without copy-pasting. Walkthrough at…
+- [Nano Studio Pro Editing API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-editing-api/) — AI edits of existing generations: one-click product placement, item recolor/remove/add, two-image merge, art-style transfer, and plain-text edits. Every…
+- [Nano Studio Pro Entities API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-entities-api/) — The characters, props, places and looks a user reuses. Each one carries a canonical reference set — the stills that keep it looking like itself — whose ids…
+- [Nano Studio Pro Generations API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-generations-api/) — The core of the API. Send a prompt, optionally attach reference images, and get an AI-generated photograph back. Generations cost credits by resolution (60…
+- [Nano Studio Pro Media API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-media-api/) — The Media API from Nano Studio Pro — 1 operation(s) for media.
+- [Nano Studio Pro Projects API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-projects-api/) — A project is a named container for your generations. Group images by client, campaign, product, or any concept that makes sense to you. Generations always…
+- [Nano Studio Pro Search API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-search-api/) — Full-text + detection-aware search across everything you've uploaded or generated. Backed by a Postgres GIN index over scan results — finds matches by name,…
+- [Nano Studio Pro Sheets API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-sheets-api/) — One image holding several separate elements laid out so each can be cut out — an animation cycle, a sprite sheet, an icon set, a sticker pack, a page of…
+- [Nano Studio Pro Sounds API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-sounds-api/) — The user's sound library: every music track, sound effect, ambience and voice the app has made or been given, from any section (storyboards, clips, Motion…
+- [Nano Studio Pro Storyboards API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-storyboards-api/) — A short film planned as a graph, the same document the Storyboards page edits — so the owner watches an agent build it. A **keyframe** (panel) is one frozen…
+- [Nano Studio Pro Tasks API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-tasks-api/) — Lifecycle records for every async operation the API kicks off — generations, scans, uploads, exports. Every endpoint that does server-side work returns a…
+- [Nano Studio Pro Video API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-video-api/) — Image-to-video generation (Kling). Submit a source generation + motion prompt; poll until the 5s/10s video is ready. The platform's most expensive operation…
+- [Nano Studio Pro Videos API](https://apis.io/apis/nanostudiopro-com/nanostudiopro-com-videos-api/) — The Videos API from Nano Studio Pro — 7 operation(s) for videos.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Nano Studio Pro Agentic Access](https://apis.io/agentic-access/nanostudiopro-com/nanostudiopro-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Entity](https://apis.io/schemas/nanostudiopro-com/nanostudiopro-com-entity/)
+- [SearchScope](https://apis.io/schemas/nanostudiopro-com/nanostudiopro-com-search-scope/)
+- [Sound](https://apis.io/schemas/nanostudiopro-com/nanostudiopro-com-sound/)
+- [Storyboard](https://apis.io/schemas/nanostudiopro-com/nanostudiopro-com-storyboard/)
+- [StoryboardShareAnswer](https://apis.io/schemas/nanostudiopro-com/nanostudiopro-com-storyboard-share-answer/)
+- [Task](https://apis.io/schemas/nanostudiopro-com/nanostudiopro-com-task/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Nanostudiopro Com Context](https://apis.io/jsonld/nanostudiopro-com/nanostudiopro-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Nano Studio Pro API Rules](https://apis.io/rules/nanostudiopro-com/nanostudiopro-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Nano Studio Pro Authentication](https://apis.io/security/nanostudiopro-com/nanostudiopro-com-authentication/)
+- [Nano Studio Pro Domain Security](https://apis.io/security/nanostudiopro-com/nanostudiopro-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Nano Studio Pro Plans Pricing](https://apis.io/plans/nanostudiopro-com/nanostudiopro-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://nanostudiopro.com/)
+- [Documentation](https://nanostudiopro.com/docs)
+- [Pricing](https://nanostudiopro.com/pricing)
+- [Support](https://nanostudiopro.com/support)
+- [Blog](https://nanostudiopro.com/blog)
+- [Terms of service](https://nanostudiopro.com/terms)
+- [Privacy policy](https://nanostudiopro.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.2** — strong · rubric 0.27.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 73.2 |
+
+**Agent readiness 55.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nanostudiopro-com/](https://apis.io/providers/nanostudiopro-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Nano Studio Pro: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nanostudiopro-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
